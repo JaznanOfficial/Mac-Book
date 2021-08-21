@@ -19,19 +19,17 @@ bestPriceNumber = parseFloat(1299);
 totalPrice();
 
 
-// memory cost fucntion
+// memory cost function
 
 document.getElementById('default-memory').addEventListener('click', function () {
     extMemoryCost.innerText = 0;
     extMemoryNumber = parseInt(extMemoryCost);
     totalPrice();
-    // return extMemoryNumber;
 })
 document.getElementById('memory16').addEventListener('click', function () {
     extMemoryCost.innerText = 180;
     extMemoryNumber = parseInt(extMemoryCost);
     totalPrice();
-    // return extMemoryNumber;
 })
 
 // extra storage cost function
@@ -39,7 +37,6 @@ document.getElementById('default-storage-btn').addEventListener('click', functio
     extStorageCost.innerText = 0;
     extStorageNumber = parseInt(extStorageCost.innerText);
     totalPrice();
-    // return extStorageNumber;
 })
 document.getElementById('second-ssd').addEventListener('click', function () {
     extStorageCost.innerText = 100;
@@ -51,7 +48,6 @@ document.getElementById('third-ssd').addEventListener('click', function () {
     extStorageCost.innerText = 180;
     extStorageNumber = parseInt(extStorageCost.innerText);
     totalPrice();
-    // return extStorageNumber;
 })
 
 
@@ -60,13 +56,11 @@ document.getElementById('regular-shipping').addEventListener('click', function (
     deliveryCost.innerText = 0;
     deliveryCostNumber = parseInt(deliveryCost.innerText);
     totalPrice();
-    // return deliveryCostNumber;
 })
 document.getElementById('urgent-shipping').addEventListener('click', function () {
     deliveryCost.innerText = 20;
     deliveryCostNumber = parseInt(deliveryCost.innerText);
     totalPrice();
-    // return deliveryCostNumber;
 })
 
 
