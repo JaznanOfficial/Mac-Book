@@ -42,5 +42,5 @@ button:hover{
 .apply-btn:hover{
     background-color: tomato !important;
     color: white !important;
-    border: 1px solid red !important;
+    border: 1px solid tomato !important;
 }
