@@ -86,8 +86,13 @@ function totalPrice() {
 function apply(){
     const applyInput = document.getElementById('promo-input').value;
     if (applyInput == 'stevekaku') {
-    //     console.log('steve kaku shesh');
-        document.getElementById('all-total').innerText = Number(totalAmount - (totalAmount*20/100));
+        
+        document.getElementById('all-total').innerText = Number(totalAmount - (totalAmount * 20 / 100));
+        document.getElementById('promo-input').value = ' ';
     }
-    
+    else {
+        alert('Invalid promo code');
+        document.getElementById('promo-input').value = ' ';
+        location.reload();
+    }
 }
