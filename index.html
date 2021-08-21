@@ -72,40 +72,40 @@
                 <section class="my-5 w-50 mx-0">
                     <div class="d-flex justify-content-between">
                         <div class="col-6 mx-0"><p><strong>Best Price</strong></p></div>
-                        <div class="col-3 mx-0"><p><strong>$ <span id="best-price">1299</span></strong></p></div>
+                        <div class="col-3 mx-0 text-end"><p><strong>$ <span id="best-price">1299</span></strong></p></div>
                     </div>
                     <hr class="border border-secondary mt-0 mb-3">
                     <div class="d-flex justify-content-between">
                         <div class="col-6 mx-0"><p><strong>Extra Memory Cost</strong></p></div>
-                        <div class="col-3 mx-0"><p><strong>$ <span id="extra-memory-cost">0</span></strong></p></div>
+                        <div class="col-3 mx-0 text-end"><p><strong>$ <span id="extra-memory-cost">0</span></strong></p></div>
                     </div>
                     <hr class="border border-secondary mt-0 mb-3">
                     <div class="d-flex justify-content-between">
                         <div class="col-6 mx-0"><p><strong>Extra Storage Cost</strong></p></div>
-                        <div class="col-3 mx-0"><p><strong>$ <span id="extra-storage-cost">0</span></strong></p></div>
+                        <div class="col-3 mx-0 text-end"><p><strong>$ <span id="extra-storage-cost">0</span></strong></p></div>
                     </div>
                     <hr class="border border-secondary mt-0 mb-3">
                     <div class="d-flex justify-content-between">
                         <div class="col-6 mx-0"><p><strong>Delivery Charge</strong></p></div>
-                        <div class="col-3 mx-0"><p><strong>$ <span id="delivery-cost">0</span></strong></p></div>
+                        <div class="col-3 mx-0 text-end"><p><strong>$ <span id="delivery-cost">0</span></strong></p></div>
                     </div>
                     <hr class="mt-0 mb-3 special-hr">
                     <div class="d-flex justify-content-between">
                         <div class="col-6 mx-0"><p><strong>Total Price</strong></p></div>
-                        <div class="col-3 mx-0"><p><strong>$ <span id="total-price">0</span></strong></p></div>
+                        <div class="col-3 mx-0 text-end"><p><strong>$ <span id="total-price">0</span></strong></p></div>
                     </div>
                     <hr class="border border-secondary mt-0 mb-3">
                 </section>
                 <div class="input-group w-50 ms-0">
-                    <input type="text" class="form-control" placeholder="Promo Code" aria-label="Recipient's username with two button addons">
-                    <button class="btn btn-outline-secondary apply-btn" type="button">Apply</button>
+                    <input type="text" class="form-control" placeholder="Promo Code" aria-label="Recipient's username with two button addons" id="promo-input">
+                    <button class="btn btn-outline-secondary apply-btn" type="button" onclick="apply()" id="promo-btn">Apply</button>
                 </div>
             </div>
             
         </div>
         <footer>
             <hr class="special-hr w-75 mx-auto mt-5 mb-3">
-            <h1 class="text-center">Total: $ <span>1299</span></h1>
+            <h1 class="text-center text-end">Total: $ <span id="all-total">1299</span></h1>
         </footer>
 
         <!-- bootstrap js link -->
